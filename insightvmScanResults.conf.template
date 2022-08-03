@@ -1,0 +1,13 @@
+
+
+[json]
+app_name = InsightVM
+version = 1.0
+
+[insightvm]
+pid_file = pidfile
+state_dir = ./state
+user = 
+password = 
+scanner = https://192.168.1.1:3780
+report_id = 00000001
