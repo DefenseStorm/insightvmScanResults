@@ -22,8 +22,7 @@ change the following items in the config file based on your configuration token 
 
 user = <InsightVM Scanner local username>
 password = <InsightVM Scanner local password>
-scanner = <comma separated list of scanners (no spaces)
-scan_list = scans.json (customize if needed)
+scanner = <scanner url>
 
 Add these modules if they are not yet there:
 apt-get install python3-requests
