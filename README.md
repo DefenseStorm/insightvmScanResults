@@ -1,4 +1,4 @@
-Nessus Integration for DefenseStorm
+InsightVM Integration for DefenseStorm
 
 to pull this repository and submodules:
 
@@ -20,8 +20,8 @@ cp insightvmScanResults.conf.template insightvmScanResults.conf
 
 change the following items in the config file based on your configuration token console site
 
-user = <Nessus Scanner local username>
-password = <Nessus Scanner local password>
+user = <InsightVM Scanner local username>
+password = <InsightVM Scanner local password>
 scanner = <comma separated list of scanners (no spaces)
 scan_list = scans.json (customize if needed)
 
