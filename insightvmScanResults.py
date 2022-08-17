@@ -41,8 +41,9 @@ class integration(object):
     def get_scan(self, report_id):
 
         URL = self.scanner + '/api/3/reports/' + report_id + '/history/latest/output/'
+        headers = {'Content-Type': 'application/json'}
         try:
-            r = requests.get(url = URL, auth=(self.user, self.password), verify = False)
+            r = requests.get(url = URL, auth=(self.user, self.password), verify = False, headers = headers)
         except Exception as e:
             self.ds.logger.error("%s" %(traceback.format_exc().replace('\n',';')))
             self.ds.logger.error("Exception {0}".format(str(e)))
